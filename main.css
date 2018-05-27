@@ -1,0 +1,21 @@
+.hero-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 40%;
+}
+
+.hero-name {
+  display: flex;
+  align-items: center;
+  font-size: 12;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row
+}
