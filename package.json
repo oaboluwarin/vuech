@@ -12,6 +12,9 @@
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js"
   },
+  "resolutions": {
+    "@vue/component-compiler-utils/prettier": "1.12.1"
+  },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
@@ -53,6 +56,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "prettier": "1.12.1",
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
