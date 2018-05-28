@@ -1,6 +1,6 @@
-# Logs
-logs
-*.log
+.DS_Store
+node_modules/
+/dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+/test/unit/coverage/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
